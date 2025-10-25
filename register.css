@@ -1,0 +1,63 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 2px solid #a7aae1;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  font-size: 22px;
+  font-weight: bold;
+  color: #696fc7;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+input[type="url"] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #696fc7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}

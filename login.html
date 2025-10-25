@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="icon" href="./iconlogo.png" />
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Login</legend>
+        <br />
+        <label for="Username">Username <span style="color: red">*</span></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          id="User"
+          name="username"
+          required
+          minlength="8"
+        />
+        <br />
+        <br />
+        <label for="pwd">Password </label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          id="pwd"
+          name="pwd"
+          required
+          pattern="[a-z,A-Z]{3,10}"
+        />
+        <br />
+        <br />
+        <label for="">Mobile No:</label>
+        <select name="C_Code" id="">
+          <option value="+91">91</option>
+          <option value="+92">92</option>
+          <option value="+93" selected>93</option>
+        </select>
+        <input
+          type="tel"
+          placeholder="mobile Number"
+          name="mobile_no"
+          minlength="10"
+          maxlength="10"
+        />
+        <br />
+        <br />
+        <label for="">Feedback</label>
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+        <br />
+        <br />
+        <button type="submit">Login</button>
+        <button type="reset">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
